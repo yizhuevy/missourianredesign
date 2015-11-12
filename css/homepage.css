@@ -1,0 +1,480 @@
+﻿body{margin:0;
+   background-color:rgb(249,249,249);
+}
+
+a{text-decoration:none;}
+a:visited{color:black;
+}
+#body a{color:black;
+}
+#body a:visited{color:black;
+}
+
+#head{background-color:white;
+   display:block;
+   position:fixed;
+   width:100%;
+   z-index:100;
+}
+
+#weather{display:inline-block;
+   z-index:1;
+   position:absolute;
+   margin-left:12%;
+}
+.weathericon{display:inline-block;
+   margin-top:43px;
+}
+
+.temperature{display:inline-block;
+   font-size:25px;
+   color:#677999;
+   margin-left:5px;
+   
+}
+
+
+header{text-align:center;
+   z-index:10;
+   margin-bottom:-40px;
+   margin-top:-12px;
+}
+header h1{font-family: 'Libre Baskerville', serif;
+   font-size:50px;
+   text-align:center;
+   letter-spacing:2px;
+   color:#34508C;
+}
+
+
+
+#socialmedia{display:inline-block;
+   z-index:0;
+   position:absolute;
+   margin-top:43px;
+   margin-left:81%;
+   width:50%;
+   opacity:0.5;
+}
+.facebook{margin-right:3px;
+   display:inline-block;
+}
+.twitter{margin-right:3px;
+   display:inline-block;
+}
+.youtube{display:inline-block;
+}
+
+
+
+#nav{text-align:center;  
+   margin-bottom:-20px; 
+}
+#nav ul{
+   border-top:1.5px solid #34508C;
+   width:100%;
+   display:inline-block;
+   text-align:center;
+   background-color:white;
+   box-shadow:1px 5px 10px -5px #888888;
+   margin-left:-35px;
+}
+#nav li{list-style:none;
+   font-family: 'Open Sans', sans-serif;
+   font-size:15px;
+   display:inline-block;
+   text-align:center;
+   position:relative;
+}
+#nav a{text-decoration:none;
+   display:block;
+   float:left;
+   color:#677999;
+   opacity:0.8;
+   padding:9px 70px 6px 50px;
+   text-align:center;
+}
+#nav a:hover{color:#3AF3AB;
+}
+
+
+
+#body{width:80%;
+   background-color:;
+   margin-left:10%;
+   padding:0;
+   padding-top:152px;
+}
+#body h1{font-family:'Lato', sans-serif;
+   font-size:30px;
+   margin-top:5px;
+   color:;
+}
+#body h2{font-family:'Lato', sans-serif;
+   font-size:23px;
+   margin-top:5px;
+   color:;
+}
+
+
+.horizontalad{text-align:center;
+   margin-bottom:15px;
+}
+
+#leftcolumn{
+ width:22%;
+ display:inline-block;
+ margin-right:4%; 
+ vertical-align:top;
+ 
+ }
+
+#latestnews{
+  
+   border-top:1px solid #3AF3AB;
+   padding:0px 15px 15px 15px;
+   width:100%;
+   background-color:white;
+   box-shadow:0px 3px 5px -2px #888888;
+   margin-bottom:12px;
+}
+#latestnews h3{font-family: 'Playfair Display', serif;
+   line-height:5px;
+   font-size:25px;  
+}
+.latesthead{display:block;
+   border-bottom:1px dotted #3AF3AB;
+}
+
+
+#latestnews h4{font-family:'Lato', sans-serif;
+   font-size:17px;
+   margin-bottom:5px;
+}
+
+#latestnews p2{font-family:'Lato', sans-serif;
+   font-size:14px;
+   color:#677999;
+   opacity:0.7;
+}
+.latest1{border-bottom:1px dotted #3AF3AB;
+   padding-bottom:19px;
+
+}
+.latest1t{width:60%;
+   display:inline-block;
+}
+
+.latest1t a:hover{
+	color:3AF3AB;
+}
+
+.latestl{
+padding-bottom:19px;
+}
+
+.latest1p{width:30%;
+   display:inline-block;
+}
+
+#ad{
+margin-right:-30px;
+
+}
+
+
+#maincolumn{width:72%;
+   display:inline-block;
+}
+#headline{width:64%;
+   display:inline-block;
+   margin-right:2%;
+   border-top:1px solid #3AF3AB;
+   padding:14px;
+   background-color:white;
+   box-shadow:0px 3px 5px -2px #888888;
+   margin-bottom:12px;
+   height:500px;
+}
+
+#headline a:hover{
+	color:#3AF3AB;
+}
+
+#secondary a:hover{
+	color:#3AF3AB;
+}
+
+#secondary{display:inline-block;
+   vertical-align:top;
+   border-top:1px solid #3AF3AB;
+   padding:14px;
+   width:25%;
+   background-color:white;
+   box-shadow:0px 3px 5px -2px #888888;
+   height:500px;
+}
+#maincolumn p2{font-family:'Lato', sans-serif;
+   font-size:14px;
+   color:#677999;
+   opacity:0.7;
+}
+#maincolumn h1{margin-bottom:10px;
+}
+#maincolumn h2{margin-bottom:10px;
+}
+
+
+
+
+
+#secondrow{width:100%;
+   display:inline-block;
+}
+#headline2{width:64%;
+   display:inline-block;
+   border-top:1px solid #3AF3AB;
+   padding:14px;
+   background-color:white;
+   box-shadow:0px 3px 5px -2px #888888;
+   margin-bottom:12px;
+   height:520px;
+}
+
+#headline2 h1{
+font-size:24px;
+}
+#secondary2{display:inline-block;
+   vertical-align:top;
+   border-top:1px solid #3AF3AB;
+   padding:14px;
+   width:25%;
+   background-color:white;
+   box-shadow:0px 3px 5px -2px #888888;
+   height:520px;
+   margin-right:2%;
+}
+#headline2 a:hover{
+	color:#3AF3AB;
+}
+
+#secondary2 a:hover{
+	color:#3AF3AB;
+}
+#maincolumn p2{font-family:'Lato', sans-serif;
+   font-size:14px;
+   color:#677999;
+   opacity:0.7;
+}
+#maincolumn h1{margin-bottom:10px;
+}
+#maincolumn h2{margin-bottom:10px;
+}
+
+/*start of three rows*/
+
+#sports {width:100%;
+
+   background-color:white;
+   box-shadow:0px 3px 5px -2px #888888;
+   border-left:5px solid #3AF3AB;
+   padding:20px;
+   margin-bottom:20px;
+}
+
+#sportsc{width:20%;   
+display:inline-block;
+padding-left:10px;
+   vertical-align:top;
+
+
+}
+
+#sports h4{font-family: 'Playfair Display', serif;
+   line-height:5px;
+   font-size:20px;  
+}
+#sports h5{font-family:'Lato', sans-serif;
+   font-size:27px;
+   margin-bottom:0px;
+}
+.sportst {width:18%;
+   display:inline-block;
+   padding-left:15px;
+   vertical-align:top;
+}
+
+
+#sportsp{width:50%;
+   display:inline-block;
+   padding-right:20px;
+   padding-left:20px;
+   border-right:1px dotted #3AF3AB;
+   margin-right:7px;
+}
+
+#sportsc h4{font-family:'Lato', sans-serif;
+   font-size:17px;
+   margin-bottom:0px;
+   line-height:18px;
+}
+
+#sports p2{font-family:'Lato', sans-serif;
+   font-size:12px;
+   color:#677999;
+   opacity:0.7;
+}
+.sports1{/*border-bottom:1px dotted #2FD8FA;*/
+   padding-bottom:0px;
+
+}
+.sports1t{width:60%;
+   display:inline-block;
+ 
+}
+
+#opinion1t{width:100%；}
+
+.sports1p{width:30%;
+   display:inline-block;
+}
+
+
+
+
+#local {width:100%;
+
+   background-color:white;
+   box-shadow:0px 3px 5px -2px #888888;
+   border-left:5px solid #FF3D8F;
+   padding:20px;
+   margin-bottom:20px;
+}
+#local h4{font-family: 'Playfair Display', serif;
+   line-height:5px;
+   font-size:20px;  
+}
+#localc{width:20%;   
+display:inline-block;
+padding-left:10px;
+   vertical-align:top;
+
+
+}
+#local h5{font-family:'Lato', sans-serif;
+   font-size:27px;
+   margin-bottom:5px;
+}
+#local p2{font-family:'Lato', sans-serif;
+   font-size:12px;
+   color:#677999;
+   opacity:0.7;
+}
+
+#localc h4{font-family:'Lato', sans-serif;
+   font-size:17px;
+   margin-bottom:0px;
+   line-height:18px;
+}
+#localp{width:50%;
+   display:inline-block;
+   padding-right:20px;
+   padding-left:20px;
+   border-right:1px dotted #FF3D8F;
+   margin-right:7px;
+}
+
+#opinion {width:100%;
+
+   background-color:white;
+   box-shadow:0px 3px 5px -2px #888888;
+   border-left:5px solid #2FD8FA;
+   padding:20px;
+   margin-bottom:20px;
+}
+#opinion h4{font-family: 'Playfair Display', serif;
+   line-height:5px;
+   font-size:20px;  
+}
+#opinionc{width:20%;   
+display:inline-block;
+padding-left:10px;
+   vertical-align:top;
+
+
+}
+#opinion h5{font-family:'Lato', sans-serif;
+   font-size:27px;
+   margin-bottom:5px;
+}
+#opinion p2{font-family:'Lato', sans-serif;
+   font-size:12px;
+   color:#677999;
+   opacity:0.7;
+}
+
+#opinionc h4{font-family:'Lato', sans-serif;
+   font-size:17px;
+   margin-bottom:0px;
+   line-height:18px;
+}
+
+#opinionp{width:50%;
+   display:inline-block;
+   padding-right:20px;
+   padding-left:20px;
+   border-right:1px dotted #2FD8FA;
+   margin-right:7px;
+}
+
+
+
+/*end of three columns*/
+
+footer{
+   padding:25px 20% 40px 20%;
+   border-top:1.5px solid #34508C;
+   margin-top:50px;
+   font-family: 'Open Sans', sans-serif;
+   font-size:13px;
+   color:#677999;
+   text-align:center;
+   line-height:30px;
+}
+
+#more1 h4{font-family: 'Open Sans', sans-serif;
+   font-size:15px;
+   color: #FF3D8F;
+   
+}
+#more1{text-align:bottom;
+   padding-top:50px;
+}
+
+#more2{text-align:bottom;
+   padding-top:50px;
+}
+
+#more2 h4{font-family: 'Open Sans', sans-serif;
+   font-size:15px;
+   color: #3AF3AB;
+   
+}
+#more3 h4{font-family: 'Open Sans', sans-serif;
+   font-size:15px;
+   color: #2FD8FA;
+   
+}
+#more3{text-align:bottom;
+   padding-top:50px;
+}
+
+#hover1 a:hover{
+	color: #FF3D8F;}
+	
+#hover2 a:hover{
+	color: #3AF3AB;
+}
+#hover3 a:hover{
+	color: #2FD8FA;
+}
